@@ -1,3 +1,35 @@
-h1 {
-  color: aqua;
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 40px;
+  width: 1280px;
+  height: 1965px;
+  background-color: #f5f7fa;
+}
+img {
+  margin-left: -40px;
+  height: 354px;
+}
+.sidebar {
+  background-color: #1e2939;
+  width: 370px;
+  height: 1319px;
+  box-sizing: border-box;
+  padding: 40px 0px 0px 40px;
+  color: #ffffff;
+}
+.e-mail {
+  opacity: 0.5;
+  color: #ffffff;
+}
+.phone {
+  text-decoration: none;
+  opacity: 0.5;
+  color: #ffffff;
+}
+.main-container {
+  display: flex;
+}
+.about-me {
+  margin-left: 89px;
+  width: 830px;
 }
