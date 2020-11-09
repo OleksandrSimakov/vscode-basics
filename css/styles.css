@@ -28,8 +28,10 @@ img {
 }
 .main-container {
   display: flex;
+  box-sizing: border-box;
 }
 .about-me {
   margin-left: 89px;
   width: 830px;
+  box-sizing: border-box;
 }
