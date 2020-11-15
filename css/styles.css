@@ -1,37 +1,250 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  padding: 40px;
+  font-family: "Montserrat";
   width: 1280px;
   height: 1965px;
   background-color: #f5f7fa;
 }
 img {
   margin-left: -40px;
-  height: 354px;
 }
 .sidebar {
-  background-color: #1e2939;
-  width: 370px;
+  width: 298px;
   height: 1319px;
+  background-color: #1e2939;
   box-sizing: border-box;
   padding: 40px 0px 0px 40px;
+}
+.aside {
   color: #ffffff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.skills {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+}
+.marker {
+  color: #ff6b08;
 }
 .e-mail {
   opacity: 0.5;
   color: #ffffff;
+  font-size: 14px;
 }
 .phone {
   text-decoration: none;
   opacity: 0.5;
   color: #ffffff;
+  font-size: 14px;
 }
 .main-container {
   display: flex;
   box-sizing: border-box;
+  width: 1200px;
+  height: 1319px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
 }
 .about-me {
   margin-left: 89px;
-  width: 830px;
+  width: 902x;
   box-sizing: border-box;
 }
+.position {
+  height: 14px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  margin-top: 60px;
+}
+.name {
+  height: 45px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 89px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.statement {
+  width: 490px;
+  height: 107px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: justify;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+}
+.h3-about-me {
+  height: 21px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.technology {
+  width: 138px;
+  height: 62px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  font-family: "Montserrat - Bold";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  font-family: "Montserrat - Bold";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  font-family: "Montserrat - Regular";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  color: #000000;
+  font-family: "Montserrat - Regular";
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+}
+.link {
+  width: 189px;
+  height: 63px;
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "https://lo" */
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+  text-decoration: none;
+}
+.position-company {
+  color: #ff6b08;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "Manager" */
+  color: #000000;
+  font-style: normal;
+  letter-spacing: 0.48px;
+  line-height: normal;
+  /* Text style for "Roga & Kop" */
+  font-style: normal;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+.yellow-company {
+  color: #ff6b08;
+}
+.date {
+  height: 13px;
+  color: #a8a8a8;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "September" */
+  font-style: normal;
+  letter-spacing: 0.36px;
+  line-height: normal;
+}
+.marker2 {
+  font-weight: 700;
+}
+.responsibilities {
+  color: #595959;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "Lorem ipsu" */
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
+}
+ol {
+  padding: 0px;
+  margin-left: 20px;
+}
+.education {
+  height: 13px;
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  /* Text style for "Management" */
+  font-style: normal;
+  letter-spacing: 0.42px;
+  line-height: normal;
