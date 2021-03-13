@@ -89,7 +89,7 @@ p {
   font-style: normal;
   letter-spacing: 0.42px;
   line-height: normal;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .name {
   height: 45px;
@@ -106,7 +106,7 @@ p {
   line-height: normal;
 }
 .statement {
-  width: 490px;
+  width: 500px;
   height: 107px;
   color: #595959;
   font-family: Montserrat;
@@ -261,4 +261,7 @@ p {
 }
 .right-side__list {
   list-style: none;
+}
+.resp-list {
+  width: 550px;
 }
